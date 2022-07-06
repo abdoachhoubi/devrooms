@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Devrooms</title>
+  </head>
+  <body>
+    <h1 class="main__heading">Welcome to Devrooms</h1>
+    <p class="main__subheading">Connecting developers together!</p>
+    <form action="chat.html" id="login__form">
+      <input
+        type="text"
+        placeholder="username"
+        id="Username"
+        class="text__input"
+      />
+      <p>Please Select a Room:</p>
+      <div class="rooms__group">
+        <button class="room__button">JavaScript</button>
+        <button class="room__button">Python</button>
+        <button class="room__button">Ruby</button>
+        <button class="room__button">C++</button>
+      </div>
+      <input type="submit" value="Join Room" class="primary__button" />
+    </form>
+  </body>
+  <script src="./js/index.js"></script>
+</html>

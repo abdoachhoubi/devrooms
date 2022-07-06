@@ -1,0 +1,109 @@
+@import url("https://api.fontshare.com/v2/css?f[]=general-sans@500,300,600,400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "General Sans", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body .chat__window {
+  width: 50vw;
+  height: 90vh;
+  border: 2px solid rgb(67, 97, 238);
+  border-radius: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+body .chat__window .chat__nav {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(67, 97, 238);
+}
+body .chat__window .chat__nav .chat__room {
+  color: rgb(255, 255, 255);
+}
+body .chat__window .chat__body {
+  padding: 1rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+body .chat__window .chat__body .bubble {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 80%;
+  padding: 0.5rem;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+body .chat__window .chat__body .bubble .date {
+  font-size: 0.8rem;
+}
+body .chat__window .chat__body .bubble .user {
+  font-size: 1rem;
+  font-weight: 500;
+}
+body .chat__window .chat__body .bubble .message {
+  font-size: 1rem;
+}
+body .chat__window .chat__body .user__message {
+  background-color: rgb(67, 97, 238);
+  align-self: flex-end;
+}
+body .chat__window .chat__body .user__message * {
+  color: rgb(255, 255, 255);
+}
+body .chat__window .chat__body .incoming__message {
+  background-color: rgb(182, 182, 182);
+  align-self: flex-start;
+}
+body .chat__window .chat__body .incoming__message .user {
+  color: rgb(67, 97, 238);
+}
+body .chat__window .chat__compose {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-top: 2px solid rgb(67, 97, 238);
+}
+body .chat__window .chat__compose #message {
+  padding: 0.8rem;
+  width: 30vw;
+  font-size: 1rem;
+  flex-grow: 1;
+  outline: none;
+  border: none;
+}
+body .chat__window .chat__compose #message:focus {
+  border: none;
+  outline: none;
+}
+body .chat__window .chat__compose #send {
+  padding: 1rem 4rem;
+  color: rgb(255, 255, 255);
+  background-color: rgb(67, 97, 238);
+  border: none;
+  cursor: pointer;
+  transition-duration: 500ms;
+}
+body .chat__window .chat__compose #send:hover {
+  background-color: rgb(0, 0, 0);
+}/*# sourceMappingURL=chat.css.map */
