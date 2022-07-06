@@ -5,11 +5,12 @@ It's a developer chatrooms app built using Node.js, Express.js, and Socket.io.
 ## How to use
 
 Clone the project to your local computure and follow these steps:
-1 - open your terminal and change directory to `backend`
-2 - run the command `npm install` to install all the necessary dependencies.
-3 - run the command `npm run start` to start a server on port `8000`
-4 - open your browser and go to `http://localhost:8000`
-5 - you can test the app by opening `http://yourIPaddress:8000` on another device that's connected to the same network of your local computer.
+
+1. open your terminal and change directory to `backend`
+2. run the command `npm install` to install all the necessary dependencies.
+3. run the command `npm run start` to start a server on port `8000`
+4. open your browser and go to `http://localhost:8000`
+5. you can test the app by opening `http://yourIPaddress:8000` on another device that's connected to the same network of your local computer.
 
 ## How to Contribute
 
