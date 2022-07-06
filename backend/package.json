@@ -1,0 +1,19 @@
+{
+  "name": "devrooms",
+  "version": "1.0.0",
+  "description": "Realtime developers chatrooms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdoachhoubi/devrooms.git"
+  },
+  "author": "Abdo Achhoubi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abdoachhoubi/devrooms/issues"
+  },
+  "homepage": "https://github.com/abdoachhoubi/devrooms#readme"
+}
