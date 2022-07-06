@@ -1,19 +1,27 @@
 {
   "name": "devrooms",
-  "version": "1.0.0",
   "description": "Realtime developers chatrooms",
+  "version": "1.0.0",
+  "author": "Abdo Achhoubi",
+  "license": "MIT",
   "main": "index.js",
+  "homepage": "https://github.com/abdoachhoubi/devrooms#readme",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/abdoachhoubi/devrooms.git"
   },
-  "author": "Abdo Achhoubi",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/abdoachhoubi/devrooms/issues"
   },
-  "homepage": "https://github.com/abdoachhoubi/devrooms#readme"
+  "dependencies": {
+    "express": "^4.18.1",
+    "moment": "^2.29.3",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
 }
